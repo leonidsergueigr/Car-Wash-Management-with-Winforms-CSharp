@@ -64,5 +64,10 @@ namespace GestionnaireStationDeLavage
             panelSlide.Height = btnLogout.Height;
             panelSlide.Top = btnLogout.Top;
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

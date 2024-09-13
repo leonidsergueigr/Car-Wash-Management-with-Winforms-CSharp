@@ -1,0 +1,11 @@
+C:\Users\Léonid Gr\source\repos\GestionnaireStationDeLavage\GestionnaireStationDeLavage\bin\Debug\GestionnaireStationDeLavage.exe.config
+C:\Users\Léonid Gr\source\repos\GestionnaireStationDeLavage\GestionnaireStationDeLavage\bin\Debug\GestionnaireStationDeLavage.exe
+C:\Users\Léonid Gr\source\repos\GestionnaireStationDeLavage\GestionnaireStationDeLavage\bin\Debug\GestionnaireStationDeLavage.pdb
+C:\Users\Léonid Gr\source\repos\GestionnaireStationDeLavage\GestionnaireStationDeLavage\obj\Debug\GestionnaireStationDeLavage.csproj.AssemblyReference.cache
+C:\Users\Léonid Gr\source\repos\GestionnaireStationDeLavage\GestionnaireStationDeLavage\obj\Debug\GestionnaireStationDeLavage.csproj.SuggestedBindingRedirects.cache
+C:\Users\Léonid Gr\source\repos\GestionnaireStationDeLavage\GestionnaireStationDeLavage\obj\Debug\GestionnaireStationDeLavage.Form1.resources
+C:\Users\Léonid Gr\source\repos\GestionnaireStationDeLavage\GestionnaireStationDeLavage\obj\Debug\GestionnaireStationDeLavage.Properties.Resources.resources
+C:\Users\Léonid Gr\source\repos\GestionnaireStationDeLavage\GestionnaireStationDeLavage\obj\Debug\GestionnaireStationDeLavage.csproj.GenerateResource.cache
+C:\Users\Léonid Gr\source\repos\GestionnaireStationDeLavage\GestionnaireStationDeLavage\obj\Debug\GestionnaireStationDeLavage.csproj.CoreCompileInputs.cache
+C:\Users\Léonid Gr\source\repos\GestionnaireStationDeLavage\GestionnaireStationDeLavage\obj\Debug\GestionnaireStationDeLavage.exe
+C:\Users\Léonid Gr\source\repos\GestionnaireStationDeLavage\GestionnaireStationDeLavage\obj\Debug\GestionnaireStationDeLavage.pdb

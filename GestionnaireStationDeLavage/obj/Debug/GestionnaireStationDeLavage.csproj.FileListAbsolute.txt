@@ -23,3 +23,4 @@ C:\Users\Léonid Gr\source\repos\GestionnaireStationDeLavage\GestionnaireStation
 C:\Users\Léonid Gr\source\repos\GestionnaireStationDeLavage\GestionnaireStationDeLavage\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.xml
 C:\Users\Léonid Gr\source\repos\GestionnaireStationDeLavage\GestionnaireStationDeLavage\obj\Debug\GestionnaireStationDeLavage.exe.config
 C:\Users\Léonid Gr\source\repos\GestionnaireStationDeLavage\GestionnaireStationDeLavage\obj\Debug\GestionnaireStationDeLavage.EmployerModule.resources
+C:\Users\Léonid Gr\source\repos\GestionnaireStationDeLavage\GestionnaireStationDeLavage\obj\Debug\GestionnaireStationDeLavage.Setting.resources

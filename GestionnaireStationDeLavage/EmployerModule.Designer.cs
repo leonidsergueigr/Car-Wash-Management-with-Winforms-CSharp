@@ -238,9 +238,9 @@
             this.Eid.AutoSize = true;
             this.Eid.Location = new System.Drawing.Point(97, 571);
             this.Eid.Name = "Eid";
-            this.Eid.Size = new System.Drawing.Size(30, 20);
+            this.Eid.Size = new System.Drawing.Size(46, 20);
             this.Eid.TabIndex = 20;
-            this.Eid.Text = "Eid";
+            this.Eid.Text = "lblEid";
             this.Eid.Visible = false;
             // 
             // label9
@@ -280,6 +280,7 @@
             this.pbPicturePreview.TabIndex = 23;
             this.pbPicturePreview.TabStop = false;
             this.pbPicturePreview.Type = Bunifu.UI.WinForms.BunifuPictureBox.Types.Square;
+            this.pbPicturePreview.Click += new System.EventHandler(this.pbPicturePreview_Click);
             // 
             // btnExit
             // 
@@ -323,6 +324,7 @@
             this.btnUpdate.TabIndex = 18;
             this.btnUpdate.Text = "Mis à Jour";
             this.btnUpdate.UseVisualStyleBackColor = false;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnSave
             // 
@@ -376,6 +378,7 @@
             this.Name = "EmployerModule";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "EmployerModule";
+            this.Load += new System.EventHandler(this.EmployerModule_Load);
             ((System.ComponentModel.ISupportInitialize)(this.btnPicture)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbPicturePreview)).EndInit();
             this.ResumeLayout(false);
@@ -405,10 +408,10 @@
         public System.Windows.Forms.Button btnSave;
         public System.Windows.Forms.Button btnUpdate;
         public System.Windows.Forms.Button btnCancel;
-        private System.Windows.Forms.Label Eid;
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Label label9;
-        private Bunifu.UI.WinForms.BunifuPictureBox pbPicturePreview;
-        private Bunifu.Framework.UI.BunifuImageButton btnPicture;
+        public System.Windows.Forms.Label Eid;
+        public Bunifu.UI.WinForms.BunifuPictureBox pbPicturePreview;
+        public Bunifu.Framework.UI.BunifuImageButton btnPicture;
     }
 }

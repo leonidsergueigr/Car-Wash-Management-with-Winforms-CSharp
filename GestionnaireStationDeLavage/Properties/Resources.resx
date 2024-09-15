@@ -121,14 +121,14 @@
   <data name="stack_of_coins_45px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icons\stack_of_coins_45px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="close_window_45px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icons\close_window_45px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="dashboard_layout_45px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\dashboard_layout_45px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="trash_45px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icons\trash_45px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="dashboard_layout_45px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icons\dashboard_layout_45px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="close_window_45px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\close_window_45px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="exit_45px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icons\exit_45px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -144,6 +144,9 @@
   </data>
   <data name="dashboard_layout_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icons\dashboard_layout_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edit_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\edit_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="cancel_45px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icons\cancel_45px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -163,6 +166,9 @@
   <data name="save_45px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icons\save_45px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="camera_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\camera_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="add_45px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icons\add_45px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -181,7 +187,7 @@
   <data name="dashboard_layout_96px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icons\dashboard_layout_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="camera_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icons\camera_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="trash_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\trash_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

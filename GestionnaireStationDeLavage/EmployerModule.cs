@@ -27,6 +27,8 @@ namespace GestionnaireStationDeLavage
         public EmployerModule()
         {
             InitializeComponent();
+            txtSalary.KeyPress += new KeyPressEventHandler(txtSalary_KeyPress);
+            txtPhone.KeyPress += new KeyPressEventHandler(txtPhone_KeyPress);
         }
 
 
@@ -42,7 +44,7 @@ namespace GestionnaireStationDeLavage
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            Clear();
         }
 
         private void btnExit_Click(object sender, EventArgs e)
@@ -99,11 +101,15 @@ namespace GestionnaireStationDeLavage
 
         private void txtSalary_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && (e.KeyChar != '.'))
+            if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
             {
                 e.Handled = true;
             }
-            if ((e.KeyChar == '.') && ((sender as Bunifu.Framework.BunifuCustomTextbox).Text.IndexOf('.') > -1))
+        }
+
+        private void txtPhone_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
             {
                 e.Handled = true;
             }
@@ -157,6 +163,11 @@ namespace GestionnaireStationDeLavage
         }
 
         private void txtSalary_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtPhone_TextChanged(object sender, EventArgs e)
         {
 
         }

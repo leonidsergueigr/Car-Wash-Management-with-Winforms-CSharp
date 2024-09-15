@@ -63,6 +63,26 @@ namespace GestionnaireStationDeLavage.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap add_45px {
+            get {
+                object obj = ResourceManager.GetObject("add_45px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap add1_45px {
+            get {
+                object obj = ResourceManager.GetObject("add1_45px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap customer_insight_45px {
             get {
                 object obj = ResourceManager.GetObject("customer_insight_45px", resourceCulture);
@@ -96,6 +116,16 @@ namespace GestionnaireStationDeLavage.Properties {
         internal static System.Drawing.Bitmap dashboard_layout_96px1 {
             get {
                 object obj = ResourceManager.GetObject("dashboard_layout_96px1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap edit_45px {
+            get {
+                object obj = ResourceManager.GetObject("edit_45px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -166,6 +196,16 @@ namespace GestionnaireStationDeLavage.Properties {
         internal static System.Drawing.Bitmap stack_of_coins_45px {
             get {
                 object obj = ResourceManager.GetObject("stack_of_coins_45px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap trash_45px {
+            get {
+                object obj = ResourceManager.GetObject("trash_45px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

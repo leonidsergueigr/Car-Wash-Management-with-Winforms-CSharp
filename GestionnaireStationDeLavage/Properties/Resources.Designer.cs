@@ -83,6 +83,16 @@ namespace GestionnaireStationDeLavage.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cancel_45px {
+            get {
+                object obj = ResourceManager.GetObject("cancel_45px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap customer_insight_45px {
             get {
                 object obj = ResourceManager.GetObject("customer_insight_45px", resourceCulture);
@@ -173,6 +183,16 @@ namespace GestionnaireStationDeLavage.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap save_45px {
+            get {
+                object obj = ResourceManager.GetObject("save_45px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap service_45px {
             get {
                 object obj = ResourceManager.GetObject("service_45px", resourceCulture);
@@ -216,6 +236,16 @@ namespace GestionnaireStationDeLavage.Properties {
         internal static System.Drawing.Bitmap up_45px {
             get {
                 object obj = ResourceManager.GetObject("up_45px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap update_left_rotation_45px {
+            get {
+                object obj = ResourceManager.GetObject("update_left_rotation_45px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -31,23 +31,25 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.bunifuCustomTextbox1 = new Bunifu.Framework.BunifuCustomTextbox();
+            this.txtName = new Bunifu.Framework.BunifuCustomTextbox();
             this.label3 = new System.Windows.Forms.Label();
-            this.guna2DateTimePicker1 = new Guna.UI2.WinForms.Guna2DateTimePicker();
+            this.txtBirthDay = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.label4 = new System.Windows.Forms.Label();
-            this.bunifuCustomTextbox2 = new Bunifu.Framework.BunifuCustomTextbox();
-            this.bunifuCustomTextbox3 = new Bunifu.Framework.BunifuCustomTextbox();
+            this.txtPhone = new Bunifu.Framework.BunifuCustomTextbox();
+            this.txtAddress = new Bunifu.Framework.BunifuCustomTextbox();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cbRole = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.bunifuCustomTextbox4 = new Bunifu.Framework.BunifuCustomTextbox();
+            this.txtSalary = new Bunifu.Framework.BunifuCustomTextbox();
             this.label8 = new System.Windows.Forms.Label();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.rbMale = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.Eid = new System.Windows.Forms.Label();
+            this.btnExit = new System.Windows.Forms.Button();
+            this.btnCancel = new System.Windows.Forms.Button();
+            this.btnUpdate = new System.Windows.Forms.Button();
+            this.btnSave = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // panel1
@@ -57,7 +59,7 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(945, 31);
+            this.panel1.Size = new System.Drawing.Size(906, 31);
             this.panel1.TabIndex = 0;
             // 
             // label1
@@ -75,75 +77,75 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(97, 79);
+            this.label2.Location = new System.Drawing.Point(97, 172);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(120, 20);
             this.label2.TabIndex = 2;
             this.label2.Text = "Nom Complets:";
             // 
-            // bunifuCustomTextbox1
+            // txtName
             // 
-            this.bunifuCustomTextbox1.BorderColor = System.Drawing.Color.SeaGreen;
-            this.bunifuCustomTextbox1.Location = new System.Drawing.Point(304, 78);
-            this.bunifuCustomTextbox1.Name = "bunifuCustomTextbox1";
-            this.bunifuCustomTextbox1.Size = new System.Drawing.Size(517, 26);
-            this.bunifuCustomTextbox1.TabIndex = 3;
+            this.txtName.BorderColor = System.Drawing.Color.SeaGreen;
+            this.txtName.Location = new System.Drawing.Point(304, 171);
+            this.txtName.Name = "txtName";
+            this.txtName.Size = new System.Drawing.Size(517, 26);
+            this.txtName.TabIndex = 3;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(97, 150);
+            this.label3.Location = new System.Drawing.Point(97, 243);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(150, 20);
             this.label3.TabIndex = 4;
             this.label3.Text = "Date de naissance:";
             // 
-            // guna2DateTimePicker1
+            // txtBirthDay
             // 
-            this.guna2DateTimePicker1.CheckedState.Parent = this.guna2DateTimePicker1;
-            this.guna2DateTimePicker1.FillColor = System.Drawing.Color.White;
-            this.guna2DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.guna2DateTimePicker1.HoverState.Parent = this.guna2DateTimePicker1;
-            this.guna2DateTimePicker1.Location = new System.Drawing.Point(304, 134);
-            this.guna2DateTimePicker1.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
-            this.guna2DateTimePicker1.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
-            this.guna2DateTimePicker1.Name = "guna2DateTimePicker1";
-            this.guna2DateTimePicker1.ShadowDecoration.Parent = this.guna2DateTimePicker1;
-            this.guna2DateTimePicker1.Size = new System.Drawing.Size(144, 36);
-            this.guna2DateTimePicker1.TabIndex = 5;
-            this.guna2DateTimePicker1.Value = new System.DateTime(2024, 9, 15, 6, 44, 3, 780);
+            this.txtBirthDay.CheckedState.Parent = this.txtBirthDay;
+            this.txtBirthDay.FillColor = System.Drawing.Color.White;
+            this.txtBirthDay.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.txtBirthDay.HoverState.Parent = this.txtBirthDay;
+            this.txtBirthDay.Location = new System.Drawing.Point(304, 237);
+            this.txtBirthDay.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.txtBirthDay.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.txtBirthDay.Name = "txtBirthDay";
+            this.txtBirthDay.ShadowDecoration.Parent = this.txtBirthDay;
+            this.txtBirthDay.Size = new System.Drawing.Size(144, 26);
+            this.txtBirthDay.TabIndex = 5;
+            this.txtBirthDay.Value = new System.DateTime(2024, 9, 15, 6, 44, 3, 780);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(484, 150);
+            this.label4.Location = new System.Drawing.Point(484, 243);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(89, 20);
             this.label4.TabIndex = 6;
             this.label4.Text = "Téléphone:";
             // 
-            // bunifuCustomTextbox2
+            // txtPhone
             // 
-            this.bunifuCustomTextbox2.BorderColor = System.Drawing.Color.SeaGreen;
-            this.bunifuCustomTextbox2.Location = new System.Drawing.Point(630, 144);
-            this.bunifuCustomTextbox2.Name = "bunifuCustomTextbox2";
-            this.bunifuCustomTextbox2.Size = new System.Drawing.Size(191, 26);
-            this.bunifuCustomTextbox2.TabIndex = 7;
+            this.txtPhone.BorderColor = System.Drawing.Color.SeaGreen;
+            this.txtPhone.Location = new System.Drawing.Point(630, 237);
+            this.txtPhone.Name = "txtPhone";
+            this.txtPhone.Size = new System.Drawing.Size(191, 26);
+            this.txtPhone.TabIndex = 7;
             // 
-            // bunifuCustomTextbox3
+            // txtAddress
             // 
-            this.bunifuCustomTextbox3.BorderColor = System.Drawing.Color.SeaGreen;
-            this.bunifuCustomTextbox3.Location = new System.Drawing.Point(304, 200);
-            this.bunifuCustomTextbox3.Multiline = true;
-            this.bunifuCustomTextbox3.Name = "bunifuCustomTextbox3";
-            this.bunifuCustomTextbox3.Size = new System.Drawing.Size(517, 66);
-            this.bunifuCustomTextbox3.TabIndex = 9;
-            this.bunifuCustomTextbox3.TextChanged += new System.EventHandler(this.bunifuCustomTextbox3_TextChanged);
+            this.txtAddress.BorderColor = System.Drawing.Color.SeaGreen;
+            this.txtAddress.Location = new System.Drawing.Point(304, 293);
+            this.txtAddress.Multiline = true;
+            this.txtAddress.Name = "txtAddress";
+            this.txtAddress.Size = new System.Drawing.Size(517, 66);
+            this.txtAddress.TabIndex = 9;
+            this.txtAddress.TextChanged += new System.EventHandler(this.bunifuCustomTextbox3_TextChanged);
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(97, 201);
+            this.label5.Location = new System.Drawing.Point(97, 294);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(71, 20);
             this.label5.TabIndex = 8;
@@ -153,136 +155,168 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(97, 303);
+            this.label6.Location = new System.Drawing.Point(97, 396);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(45, 20);
             this.label6.TabIndex = 10;
             this.label6.Text = "Rôle:";
             // 
-            // comboBox1
+            // cbRole
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(304, 295);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(517, 28);
-            this.comboBox1.TabIndex = 11;
+            this.cbRole.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.cbRole.FormattingEnabled = true;
+            this.cbRole.Items.AddRange(new object[] {
+            "Gérant",
+            "Superviseur",
+            "Caissier",
+            "Ouvrier"});
+            this.cbRole.Location = new System.Drawing.Point(304, 388);
+            this.cbRole.Name = "cbRole";
+            this.cbRole.Size = new System.Drawing.Size(517, 28);
+            this.cbRole.TabIndex = 11;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(97, 359);
+            this.label7.Location = new System.Drawing.Point(97, 452);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(61, 20);
             this.label7.TabIndex = 12;
             this.label7.Text = "Salaire:";
             // 
-            // bunifuCustomTextbox4
+            // txtSalary
             // 
-            this.bunifuCustomTextbox4.BorderColor = System.Drawing.Color.SeaGreen;
-            this.bunifuCustomTextbox4.Location = new System.Drawing.Point(304, 353);
-            this.bunifuCustomTextbox4.Name = "bunifuCustomTextbox4";
-            this.bunifuCustomTextbox4.Size = new System.Drawing.Size(191, 26);
-            this.bunifuCustomTextbox4.TabIndex = 13;
+            this.txtSalary.BorderColor = System.Drawing.Color.SeaGreen;
+            this.txtSalary.Location = new System.Drawing.Point(304, 446);
+            this.txtSalary.Name = "txtSalary";
+            this.txtSalary.Size = new System.Drawing.Size(191, 26);
+            this.txtSalary.TabIndex = 13;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(519, 359);
+            this.label8.Location = new System.Drawing.Point(519, 452);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(60, 20);
             this.label8.TabIndex = 14;
             this.label8.Text = "Genre:";
             // 
-            // radioButton1
+            // rbMale
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(629, 357);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(83, 24);
-            this.radioButton1.TabIndex = 15;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Homme";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.rbMale.AutoSize = true;
+            this.rbMale.Checked = true;
+            this.rbMale.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.rbMale.Location = new System.Drawing.Point(629, 450);
+            this.rbMale.Name = "rbMale";
+            this.rbMale.Size = new System.Drawing.Size(83, 24);
+            this.rbMale.TabIndex = 15;
+            this.rbMale.TabStop = true;
+            this.rbMale.Text = "Homme";
+            this.rbMale.UseVisualStyleBackColor = true;
             // 
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(741, 357);
+            this.radioButton2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.radioButton2.Location = new System.Drawing.Point(741, 450);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(80, 24);
             this.radioButton2.TabIndex = 16;
-            this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Femme";
             this.radioButton2.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // Eid
             // 
-            this.button3.BackColor = System.Drawing.Color.Crimson;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Image = global::GestionnaireStationDeLavage.Properties.Resources.cancel_45px;
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(677, 432);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(191, 49);
-            this.button3.TabIndex = 19;
-            this.button3.Text = "Annuler";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.Eid.AutoSize = true;
+            this.Eid.Location = new System.Drawing.Point(97, 539);
+            this.Eid.Name = "Eid";
+            this.Eid.Size = new System.Drawing.Size(30, 20);
+            this.Eid.TabIndex = 20;
+            this.Eid.Text = "Eid";
+            this.Eid.Visible = false;
             // 
-            // button2
+            // btnExit
             // 
-            this.button2.BackColor = System.Drawing.Color.Gold;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Image = global::GestionnaireStationDeLavage.Properties.Resources.update_left_rotation_45px;
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(454, 432);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(191, 49);
-            this.button2.TabIndex = 18;
-            this.button2.Text = "Mis à Jour";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnExit.FlatAppearance.BorderSize = 0;
+            this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnExit.Image = global::GestionnaireStationDeLavage.Properties.Resources.close_window_20px;
+            this.btnExit.Location = new System.Drawing.Point(795, 35);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(35, 37);
+            this.btnExit.TabIndex = 21;
+            this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
-            // button1
+            // btnCancel
             // 
-            this.button1.BackColor = System.Drawing.Color.DeepPink;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Image = global::GestionnaireStationDeLavage.Properties.Resources.save_45px;
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(230, 432);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(191, 49);
-            this.button1.TabIndex = 17;
-            this.button1.Text = "Enregistrer";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnCancel.BackColor = System.Drawing.Color.Crimson;
+            this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCancel.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancel.ForeColor = System.Drawing.Color.White;
+            this.btnCancel.Image = global::GestionnaireStationDeLavage.Properties.Resources.cancel_45px;
+            this.btnCancel.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCancel.Location = new System.Drawing.Point(677, 525);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(191, 49);
+            this.btnCancel.TabIndex = 19;
+            this.btnCancel.Text = "Annuler";
+            this.btnCancel.UseVisualStyleBackColor = false;
+            this.btnCancel.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // btnUpdate
+            // 
+            this.btnUpdate.BackColor = System.Drawing.Color.Gold;
+            this.btnUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnUpdate.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUpdate.ForeColor = System.Drawing.Color.White;
+            this.btnUpdate.Image = global::GestionnaireStationDeLavage.Properties.Resources.update_left_rotation_45px;
+            this.btnUpdate.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnUpdate.Location = new System.Drawing.Point(454, 525);
+            this.btnUpdate.Name = "btnUpdate";
+            this.btnUpdate.Size = new System.Drawing.Size(191, 49);
+            this.btnUpdate.TabIndex = 18;
+            this.btnUpdate.Text = "Mis à Jour";
+            this.btnUpdate.UseVisualStyleBackColor = false;
+            // 
+            // btnSave
+            // 
+            this.btnSave.BackColor = System.Drawing.Color.DeepPink;
+            this.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSave.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSave.ForeColor = System.Drawing.Color.White;
+            this.btnSave.Image = global::GestionnaireStationDeLavage.Properties.Resources.save_45px;
+            this.btnSave.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSave.Location = new System.Drawing.Point(230, 525);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(191, 49);
+            this.btnSave.TabIndex = 17;
+            this.btnSave.Text = "Enregistrer";
+            this.btnSave.UseVisualStyleBackColor = false;
             // 
             // EmployerModule
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(945, 515);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(906, 641);
+            this.Controls.Add(this.btnExit);
+            this.Controls.Add(this.Eid);
+            this.Controls.Add(this.btnCancel);
+            this.Controls.Add(this.btnUpdate);
+            this.Controls.Add(this.btnSave);
             this.Controls.Add(this.radioButton2);
-            this.Controls.Add(this.radioButton1);
+            this.Controls.Add(this.rbMale);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.bunifuCustomTextbox4);
+            this.Controls.Add(this.txtSalary);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cbRole);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.bunifuCustomTextbox3);
+            this.Controls.Add(this.txtAddress);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.bunifuCustomTextbox2);
+            this.Controls.Add(this.txtPhone);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.guna2DateTimePicker1);
+            this.Controls.Add(this.txtBirthDay);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.bunifuCustomTextbox1);
+            this.Controls.Add(this.txtName);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
@@ -302,22 +336,24 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private Bunifu.Framework.BunifuCustomTextbox bunifuCustomTextbox1;
         private System.Windows.Forms.Label label3;
-        private Guna.UI2.WinForms.Guna2DateTimePicker guna2DateTimePicker1;
-        private System.Windows.Forms.Label label4;
-        private Bunifu.Framework.BunifuCustomTextbox bunifuCustomTextbox2;
-        private Bunifu.Framework.BunifuCustomTextbox bunifuCustomTextbox3;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label7;
-        private Bunifu.Framework.BunifuCustomTextbox bunifuCustomTextbox4;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        public Bunifu.Framework.BunifuCustomTextbox txtName;
+        public Guna.UI2.WinForms.Guna2DateTimePicker txtBirthDay;
+        public System.Windows.Forms.Label label4;
+        public Bunifu.Framework.BunifuCustomTextbox txtPhone;
+        public Bunifu.Framework.BunifuCustomTextbox txtAddress;
+        public System.Windows.Forms.ComboBox cbRole;
+        public Bunifu.Framework.BunifuCustomTextbox txtSalary;
+        public System.Windows.Forms.Label label8;
+        public System.Windows.Forms.RadioButton rbMale;
+        public System.Windows.Forms.RadioButton radioButton2;
+        public System.Windows.Forms.Button btnSave;
+        public System.Windows.Forms.Button btnUpdate;
+        public System.Windows.Forms.Button btnCancel;
+        private System.Windows.Forms.Label Eid;
+        private System.Windows.Forms.Button btnExit;
     }
 }

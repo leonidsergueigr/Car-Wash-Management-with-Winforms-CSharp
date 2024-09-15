@@ -15,3 +15,11 @@ C:\Users\Léonid Gr\source\repos\GestionnaireStationDeLavage\GestionnaireStation
 C:\Users\Léonid Gr\source\repos\GestionnaireStationDeLavage\GestionnaireStationDeLavage\bin\Debug\DBCarWash.mdf
 C:\Users\Léonid Gr\source\repos\GestionnaireStationDeLavage\GestionnaireStationDeLavage\bin\Debug\DBCarWash_log.ldf
 C:\Users\Léonid Gr\source\repos\GestionnaireStationDeLavage\GestionnaireStationDeLavage\obj\Debug\GestionnaireStationDeLavage.Employer.resources
+C:\Users\Léonid Gr\source\repos\GestionnaireStationDeLavage\GestionnaireStationDeLavage\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.dll
+C:\Users\Léonid Gr\source\repos\GestionnaireStationDeLavage\GestionnaireStationDeLavage\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.dll
+C:\Users\Léonid Gr\source\repos\GestionnaireStationDeLavage\GestionnaireStationDeLavage\bin\Debug\Guna.UI2.dll
+C:\Users\Léonid Gr\source\repos\GestionnaireStationDeLavage\GestionnaireStationDeLavage\bin\Debug\Bunifu.Core.dll
+C:\Users\Léonid Gr\source\repos\GestionnaireStationDeLavage\GestionnaireStationDeLavage\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.xml
+C:\Users\Léonid Gr\source\repos\GestionnaireStationDeLavage\GestionnaireStationDeLavage\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.xml
+C:\Users\Léonid Gr\source\repos\GestionnaireStationDeLavage\GestionnaireStationDeLavage\obj\Debug\GestionnaireStationDeLavage.exe.config
+C:\Users\Léonid Gr\source\repos\GestionnaireStationDeLavage\GestionnaireStationDeLavage\obj\Debug\GestionnaireStationDeLavage.EmployerModule.resources
